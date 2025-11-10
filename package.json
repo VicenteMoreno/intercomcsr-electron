@@ -1,0 +1,14 @@
+{
+  "name": "IntercomCSR",
+  "version": "1.0.0",
+  "description": "Aplicación portable para el intercomunicador web CSR.",
+  "main": "main.js",
+  "author": "VicenteMoreno",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^29.0.0"
+  }
+}
