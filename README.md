@@ -14,7 +14,7 @@ No necesitas hacer npm install electron aparte si ya está en tu package.json
 
 npm install --save-dev electron-packager
 
-npx electron-packager . IntercomCSR --platform=win32 --arch=x64 --icon=icon.png –overwrite
+npx electron-packager . IntercomCSR --platform=win32 --arch=x64 --icon=icon.png --overwrite
 
 Explicación de opciones:
 
