@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>IntercomCSR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cabecera">
+        <span id="site-name"></span>
+    </div>
+    <div id="configuracion">
+        <label for="audio-in">Dispositivo de entrada (micrófono):</label>
+        <select id="audio-in"></select>
+        <label for="audio-out">Dispositivo de salida (altavoz/auriculares):</label>
+        <select id="audio-out"></select>
+        <div id="advertencia" class="hidden"></div>
+    </div>
+    <iframe id="intercom-frame" frameborder="0"></iframe>
+    <script src="renderer.js"></script>
+</body>
+</html>
